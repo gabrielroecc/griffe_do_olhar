@@ -1,0 +1,299 @@
+@import url("https://fonts.cdnfonts.com/css/montserrat");
+@import url("https://fonts.cdnfonts.com/css/playfair-display");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+body,
+html {
+	height: 100%;
+}
+.container {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+header {
+	padding: 15px 0;
+	background: #fcc;
+}
+header ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+header li a.active {
+	color: #cb8686;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+header li a {
+	color: #fff;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.section_1 {
+	padding: 100px 0 180px 0;
+}
+.section_1 .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 55px;
+}
+.section_1 h1 {
+	color: #000;
+	font-family: Playfair Display;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	width: 100%;
+	max-width: 700px;
+}
+.section_1 p {
+	color: #000;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	max-width: 700px;
+	margin-top: 20px;
+}
+
+.section_1 img {
+	max-width: 750px;
+	width: 100%;
+}
+.btn_wrapper {
+	margin-top: 40px;
+	display: flex;
+	align-content: center;
+	gap: 20px;
+}
+.contato_btn {
+	width: fit-content;
+	padding: 15px 41px;
+	border-radius: 25px;
+	background: #f9ebd6;
+	display: block;
+
+	color: #000;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+.contato_btn:hover {
+	background: #dfcbad;
+}
+.section_2 {
+	padding: 40px 0;
+	background-color: #f9ebd6;
+	margin-top: 350px;
+	height: 350px;
+}
+.section_2 h1 {
+	color: #000;
+	text-align: center;
+	font-family: Playfair Display;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.section_2 .container {
+	position: relative;
+	top: -325px;
+}
+.section_2 .btn_wrapper {
+	justify-content: center;
+}
+.section_2 .btn_wrapper a {
+	background-color: #fff;
+}
+.slider {
+	overflow-y: visible !important;
+	overflow-x: hidden !important;
+	max-width: 850px;
+}
+.glide__slide {
+	padding: 40px 21px;
+	background-color: #fff;
+	max-width: 244px !important;
+	min-width: 244px !important;
+	width: 244px !important;
+	text-align: center;
+	border-radius: 14px;
+	box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.glide__slide p.card_title {
+	color: #000;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 14px;
+}
+.glide__slide p.card_text {
+	color: #000;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 200;
+	line-height: normal;
+	max-width: 202px;
+	margin-top: 14px;
+}
+.glider-track {
+	gap: 50px;
+}
+.slider_wrapper {
+	margin-top: 50px;
+}
+.slider_wrapper {
+	position: relative;
+}
+.glide__prev,
+.glide__next {
+	border: 0;
+	background-color: transparent;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+}
+.glide__next {
+	right: 100px;
+}
+
+.glide__prev {
+	left: 100px;
+}
+.section_2 .contato_btn:hover {
+	background-color: #cb8686;
+	color: #fff;
+}
+.section_3 {
+	padding: 180px 0;
+}
+.topic_wrapper,
+.topic_wrapper_2 {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+}
+.topic_wrapper .t_title,
+.topic_wrapper_2 .t_title {
+	color: #000;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+.topic_wrapper .t_text,
+.topic_wrapper_2 .t_text {
+	color: #000;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	margin-top: 8px;
+	line-height: normal;
+}
+.topic_wrapper_2 {
+	flex-direction: row-reverse;
+}
+.topic_wrapper_2 {
+	text-align: right;
+}
+.section_4 {
+	text-align: center;
+	padding: 40px 0;
+	background-color: #f9ebd6;
+}
+.section_4 .contato_btn {
+	background-color: #fff;
+}
+.section_4 .contato_btn:hover {
+	background-color: #cb8686;
+	color: #fff;
+}
+.section_4 h1 {
+	color: #000;
+	text-align: center;
+	font-family: Playfair Display;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.section_4 .btn_wrapper {
+	justify-content: center;
+}
+.slider_2 p.card_title {
+	color: #cb8686;
+	text-align: center;
+	font-family: Playfair Display;
+	font-size: 128px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 22%;
+}
+
+.slider_2 img {
+	margin-top: 24px;
+}
+.top_page {
+	padding: 40px 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	cursor: pointer;
+	gap: 10px;
+}
+.top_page p {
+	color: #000;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 40px 0;
+	gap: 10px;
+}
+footer img {
+	width: 50px;
+}
+footer p {
+	color: #000;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
